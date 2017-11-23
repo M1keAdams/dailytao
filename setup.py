@@ -11,7 +11,7 @@ with open('LICENSE') as f:
 
 setup(
     name='dailytao',
-    version='1.0.0',
+    version='1.0.1',
     description='Daily Tao chapters from the command line',
     long_description=readme,
     author='Mike Adams',
