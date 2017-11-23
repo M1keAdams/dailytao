@@ -12,6 +12,5 @@ def main():
     for element in result:
         date = element.find('h2')
         tao = element.find('p')
-        fineprint = element.find('div', attrs={'class':'fineprint'})
         print('\n\nDaily Tao for ' + date.text)
         print(tao.text + '\n')
